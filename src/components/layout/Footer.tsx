@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
               <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold">SI</span>
               </div>
-              <span className="font-bold text-xl text-white">Sport Ivoirien</span>
+              <span className="font-bold text-xl text-white">Sport Scolaire et Universitaire</span>
             </div>
             <p className="text-gray-400 mb-4">
               Plateforme officielle du sport scolaire en Côte d'Ivoire, promouvant l'excellence sportive et académique.
@@ -137,7 +137,7 @@ const Footer: React.FC = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              &copy; {new Date().getFullYear()} Sport Ivoirien. Tous droits réservés.
+              &copy; {new Date().getFullYear()} Sport Scolaire. Tous droits réservés.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">

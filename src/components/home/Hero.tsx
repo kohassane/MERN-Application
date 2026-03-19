@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
               <span className="text-orange-500">Développons</span> le sport scolaire <span className="text-green-500">ensemble</span>
             </h1>
             <p className="text-lg md:text-xl opacity-90 mb-8">
-              La plateforme officielle du sport scolaire en Côte d'Ivoire. Découvrez les événements, résultats et tout ce qui concerne le sport dans nos établissements.
+              La plateforme officielle du sport scolaire et universitaire en Côte d'Ivoire. Découvrez les événements, résultats et tout ce qui concerne le sport dans nos établissements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="primary" size="lg">

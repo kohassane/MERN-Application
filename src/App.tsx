@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Shop from './pages/Shop';
 import Results from './pages/Results';
 import Partners from './pages/Partners';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/shop" element={<Shop />} />
             <Route path="/results" element={<Results />} />
             <Route path="/partners" element={<Partners />} />
+            <Route path="/connexion" element={<Login />} />
             {/* Add more routes as needed */}
           </Routes>
         </main>

@@ -38,10 +38,10 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold">SI</span>
+                <span className="text-white font-bold">SS</span>
               </div>
               <span className={`font-bold text-xl ${isScrolled ? 'text-gray-800' : 'text-white'}`}>
-                Sport Ivoirien
+                Sport Scolaire
               </span>
             </div>
           </Link>
@@ -82,9 +82,11 @@ const Header: React.FC = () => {
               </span>
             </Link>
             
-            <Button variant="primary" size="sm">
-              {language === 'fr' ? 'Connexion' : 'Login'}
-            </Button>
+            <Link to="/connexion">
+              <Button variant="primary" size="sm">
+                {language === 'fr' ? 'Connexion' : 'Login'}
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -137,9 +139,11 @@ const Header: React.FC = () => {
                 </Link>
               </div>
             </div>
-            <Button variant="primary" fullWidth className="mt-4">
-              {language === 'fr' ? 'Connexion' : 'Login'}
-            </Button>
+            <Link to="/connexion" onClick={() => setIsMenuOpen(false)}>
+              <Button variant="primary" fullWidth className="mt-4">
+                {language === 'fr' ? 'Connexion' : 'Login'}
+              </Button>
+            </Link>
           </div>
         </div>
       )}
