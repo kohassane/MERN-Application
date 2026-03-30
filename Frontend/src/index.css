@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "oissu";
+  default: true;
+  --color-primary: oklch(37.8% 0.142 153.5);
+  --color-primary-content: oklch(100% 0 0);
+  --color-secondary: oklch(74.8% 0.157 66.5);
+  --color-secondary-content: oklch(14% 0.04 66.5);
+  --color-accent: oklch(55.1% 0.135 180.1);
+  --color-accent-content: oklch(100% 0 0);
+  --color-neutral: oklch(26.5% 0.015 262);
+  --color-neutral-content: oklch(97.8% 0.003 262);
+  --color-base-100: oklch(97.8% 0.003 262);
+  --color-base-200: oklch(95.6% 0.006 262);
+  --color-base-300: oklch(91.5% 0.010 262);
+  --color-base-content: oklch(26.5% 0.015 262);
+  --color-info: oklch(62.3% 0.188 255.8);
+  --color-info-content: oklch(100% 0 0);
+  --color-success: oklch(64.7% 0.196 145.6);
+  --color-success-content: oklch(100% 0 0);
+  --color-warning: oklch(72.9% 0.166 66.5);
+  --color-warning-content: oklch(14% 0.04 66.5);
+  --color-error: oklch(62.8% 0.228 27.3);
+  --color-error-content: oklch(100% 0 0);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
